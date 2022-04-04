@@ -13,6 +13,7 @@
         fillArray();
         changeArray();
         squareDiagonal();
+        arrayLenWithVal(5, 123);
     }
     
     static void invertArrayVal() {
@@ -52,5 +53,13 @@
         for(int i = 0; i < arr.length; i++) {
             System.out.println(Arrays.toString(arr[i]));
         }
+    }
+  
+  static void arrayLenWithVal(int len, int val) {
+        int[] arr = new int[len];
+        for(int i = 0; i < len; i++) {
+            arr[i] = val;
+        }
+        System.out.println(Arrays.toString(arr));
     }
 }
