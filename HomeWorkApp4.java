@@ -1,3 +1,10 @@
+/**
+ * Java 1. Homework 4
+ *
+ * @author Igor
+ * @version 06.04.2022
+ */
+
 import java.util.Random;
 import java.util.Scanner;
 
